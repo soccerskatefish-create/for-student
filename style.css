@@ -1,3 +1,105 @@
-p {
-    color: red;
+
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    
+    margin: 0 auto ;
+    position: relative;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header {
+    padding: 27px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+    color: #000;
+}
+.logo span {
+    color: gray;
+}
+.header_menu li {
+    margin-left: 40px;
+    list-style: none;
+}
+.header_menu li a:hover {
+    color: white;
+    transition: .3s;
+}
+.header_menu li a {
+    transition: .3s;
+}
+.header_menu li a {
+    text-decoration: none;
+    color:black
+}
+
+#hero {
+    background-image: url(../images/head.org.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+#hero::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0.2;
+    z-index: 1;
+}
+.hero_inner {
+    z-index: 2;
+    color: #ffff;
+    width: 100%;
+    text-align:center;
+}
+.hero_inner
+ p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+ }
+ .hero_inner h1 {
+    font-weight: 700;
+ }
+ #menu {
+    margin-bottom: 120px;
+ }
+ .title {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 60px;
+ }
+ #menu h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+ }
+ .calumn-2 {
+    width: 48%;
+ }
+ .text {
+    line-height: 2;
+  }
+.p {
+    background-image: url(../images/sit.org.jpg);
+
+ }
